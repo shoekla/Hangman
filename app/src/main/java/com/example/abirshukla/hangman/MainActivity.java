@@ -49,4 +49,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void youG(View view) {
+
+        Intent i = new Intent(this,GoodGame.class);
+
+        i.putExtra("word","abir");
+        startActivity(i);
+    }
+
 }
