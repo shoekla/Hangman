@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -39,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         WordInfo.letters.add("x");
         WordInfo.letters.add("q");
         WordInfo.letters.add("z");
+        WordInfo.wordGuesses.clear();
+        WordInfo.incorrectWords.clear();
+        WordInfo.correctLetters.clear();
     }
 
     public void IGuess(View view) {
@@ -50,10 +55,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void youG(View view) {
-
-        Intent i = new Intent(this,GoodGame.class);
-
-        i.putExtra("word","abir");
+        Intent i = new Intent(MainActivity.this,youGuess.class);
+        Random random = new Random();
+        int r = random.nextInt(WordInfo.randomWords.length);
+        String w = WordInfo.randomWords[r];
+        System.out.println("Random Word: "+w);
+        i.putExtra("name",w);
+        String sh = "";
+        for (int k = 0; k < w.length();k++) {
+            sh = sh+"#";
+        }
+        i.putExtra("show",sh);
         startActivity(i);
     }
 

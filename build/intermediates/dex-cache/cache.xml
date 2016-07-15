@@ -1,2 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.koushikdutta.ion/ion/2.1.8/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="800456ff7459edf31e780604a318741d0f8ace09">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.ion-ion-2.1.8_ef4a940c60ee6307640ac48bd9b08e0cd14df7d8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2fc311327580f964b2171301280d3313b9230474">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75c5b405390445891b12743528c734a4aa423f1b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_e69151e351d1a8e7d7928dc208b49ad8a9c58b25/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3_380b1680b3543f5199aa384fae287f9247aae4f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_0cb0bf3571e39d52ba15d498d6d45dd8635d18af/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_3ae8d284c3a251fec46861e1582c7c3c75b8e485/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_43223f59e253ed56dbe9e08dd35b0200c6ddce77/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7551bb8404d157af1559c17ea4eb7f40c80bd98e">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a42df672879d6ac03cea7e43c0da0a762920b1a8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_fe1ca0773de43540a339ceac8c9e9d3ed0a2027d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_052672af4a398251c04d7dd773f3350640f20325/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_c77540bbf91679cbb42fdec940447f388794d148/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/HangMan/app/build/intermediates/exploded-aar/com.koushikdutta.async/androidasync/2.1.8/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="210a4042913301c708bd9aeed46e4ebb5d77e462">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.async-androidasync-2.1.8_519cddf859f14ce5d02a225cadb0f377ccc84385/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_9cd6018576daa5ca74b2840255efcc74977dac82/classes.dex" />
+    </item>
+
+</items>
