@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+        WordInfo.letters.clear();
         WordInfo.letters.add("e");
         WordInfo.letters.add("t");
         WordInfo.letters.add("a");

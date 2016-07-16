@@ -12,7 +12,7 @@
         jar="/Users/abirshukla/HangMan/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="2fc311327580f964b2171301280d3313b9230474">
+        sha1="8c4a4f53fccee5330a7c81d06c61be1151fe82a1">
         <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_75c5b405390445891b12743528c734a4aa423f1b/classes.dex" />
     </item>
     <item
@@ -54,7 +54,7 @@
         jar="/Users/abirshukla/HangMan/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="7551bb8404d157af1559c17ea4eb7f40c80bd98e">
+        sha1="1300c4917754233abf1709f42239d409c94f7bbc">
         <dex dex="/Users/abirshukla/HangMan/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a42df672879d6ac03cea7e43c0da0a762920b1a8/classes.dex" />
     </item>
     <item

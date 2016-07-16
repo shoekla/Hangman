@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class youGuess extends AppCompatActivity {
-    TextView yourGuess;
+
     TextView incorrect;
     TextView currentWord;
     EditText editText;
@@ -25,7 +25,6 @@ public class youGuess extends AppCompatActivity {
         Bundle info = getIntent().getExtras();
         userWord = "";
         show = "";
-        yourGuess = (TextView) findViewById(R.id.textView3);
         incorrect = (TextView) findViewById(R.id.textView5);
         currentWord = (TextView) findViewById(R.id.textView7);
         editText = (EditText) findViewById(R.id.editText);

@@ -32,12 +32,13 @@ public class MyGuessGame extends AppCompatActivity {
         currentWord = (TextView) findViewById(R.id.textView7);
         editText = (EditText) findViewById(R.id.editText);
         incorrect.setText(WordInfo.incorrectWords.toString());
+        myGuess.setText("Making Guess ...");
         if (info != null)
             userWord = info.getString("name");
 
         if (userWord.length() > 1) {
             if (!userWord.contains("#")) {
-                Intent f = new Intent();
+                Intent f = new Intent(MyGuessGame.this, GoodGame.class);
                 f.putExtra("word",userWord);
                 startActivity(f);
             }
@@ -89,6 +90,7 @@ public class MyGuessGame extends AppCompatActivity {
 
 
     } else {
+            WordInfo.filter(userWord);
             currentGuess = WordInfo.getGuess();
             myGuess.setText(currentGuess);
         }
@@ -115,7 +117,7 @@ public class MyGuessGame extends AppCompatActivity {
             WordInfo.filter(userWord);
         }
         if (WordInfo.wordGuesses.size() == 1) {
-            Intent f = new Intent();
+            Intent f = new Intent(MyGuessGame.this, GoodGame.class);
             f.putExtra("word",WordInfo.wordGuesses.get(0));
             startActivity(f);
         }
